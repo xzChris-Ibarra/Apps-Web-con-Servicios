@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 2: Consumo de API JSONPlaceholder</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background-color: #f4f4f9; }
+        .user-card { 
+            background: white; padding: 15px; border-radius: 8px; 
+            margin-bottom: 10px; border-left: 5px solid #007bff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        button { 
+            padding: 10px 20px; background-color: #007bff; color: white; 
+            border: none; border-radius: 5px; cursor: pointer; margin-bottom: 20px;
+        }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+
+    <h1>Directorio de Usuarios (API Service)</h1>
+    <button id="btnCargar">Cargar Usuarios desde la BD</button>
+    
+    <div id="usuarios-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
